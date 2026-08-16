@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website - Daniela Castiblanco</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">Bio</a></li>
+                <li><a href="#services">OAS Leadership</a></li>
+                <li><a href="#cicad">Inter-American Observatory on Drugs</a></li>
+                <li><a href="#advocacy">Legislative Advocacy</a></li>
+                <li><a href="#socialmedia">Social Media</a></li>
+                <li><a href="#reception">Diplomatic Reception</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+    </div>
+</div>
+<!-- -----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am a Colombian girl with unlimited dreams who is in the process of being a leader for the Global fight for human rights. I am also a passionate person for literature and philosophy who loves to transcend and progress ideals, perspectives, and virtues in order to work towards a more inclusive society. Even though my first language is Spanish, it is a unique experience to learn and read in another language.It makes me challenge myself and evolve in personal and professional aspects.I am a really open-minded person who desires to understand society, its population and social context.One day, I wish to represent my country in the United Nations. I truly want to contribute to the quality of people's lives. The struggle against inequality, lack of opportunities, and corruption is what inspires me to work harder and harder every day.</p>
+                <div class="tab-titles">
+				    <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+					<p class="tab-links" onclick="opentab('position')">Leadership Positions</p>
+					<p class="tab-links" onclick="opentab('work')">Work Experience on campus</p>
+					<p class="tab-links" onclick="opentab('skills')">Professional Skills</p>
+					<p class="tab-links" onclick="opentab('awards')">Accomplishments/Awards</p>
+                    <p class="tab-links" onclick="opentab('experience')">Comunity Involvement</p>
+                </div>
+				<div class="tab-contents active-tab" id="education">
+                    <ul>
+                        <li><span>University of Wisconsin Superior</span><br>Majors: English and Public Leadership and Innovation</li>
+                        <li>Minors: Philosophy and Political Science</li>
+                        <li>GPA 3.951/4.0</li>
+                    </ul>
+                </div>
+				<div class="tab-contents" id="position">
+                    <ul>
+                        <li>President of the Student Government Association: 2023-2024</li>
+						<li>President of the International Peace Studies Association: 2023-2024</li>
+						<li>President of the English Club 2022-2023, 2021-2022</li>
+						<li>President of the Amnesty International 2022-2023</li>
+						<li>Member of the Commencement Speaker Committee: 2023,2024</li>
+						<li>Member of Sigma Tau Delta 2024, 2023</li>
+						<li>Member of the Non-Academic Misconduct Committee: 2023-2024</li>
+						<li>Vice-President of the Phi Sigma Pi 2022</li>
+						<li>Senator of Communication, Literature, and Arts 2022-2023</li>
+						<li>Member of the Sustainability Club 2022-2023, 2021-2022</li>
+                    </ul>
+                </div>
+				<div class="tab-contents" id="work">
+                    <ul>
+                        <li>Student Assistant-International Student Services (ISS) office 2023-2024</li>
+						<li>Content creator for the International Student Services (ISS) office 2023-2024</li>
+						<li>Student Assistant-Graduate Office: 2021-2024</li>
+						<li>Leader for the Weekend of Welcome-New Domestic Students: 2022,2023</li>
+						<li>International Leader-New International Students: 2022,2023</li>
+						<li>Gender Equity Resource Center (GERC) Outreach: 2022-2024</li>
+						<li>Spanish Tutor. 2021-2024</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="skills">
+                    <ul>
+                        <li>Competent in Microsoft Excel</li>
+						<li>Competent in Microsoft Word</li>
+						<li>Competent in Microsoft PowerPoint</li>
+						<li>Competent in Adobe Acrobat Pro DC</li>
+						<li>Competent in Adobe Premiere Pro</li>
+						<li>Spanish Native Speaker</li>
+						<li>English Native Speaker</li>
+                    </ul>
+                </div>
+				<div class="tab-contents" id="awards">
+                    <ul>
+                        <li>Outstanding Emerging Leadership Award Diploma, University of Wisconsin-Superior 2024</li>
+						<li>National Student Employment Week Certificate, University of Wisconsin-Superior 2024</li>
+						<li>Second Position at the World Quest, University Minnesota Duluth, 2024</li>
+						<li>Delegate of National Model United Nations, Washington D.C., 2023</li>
+						<li>Oluf Haugsrud Scholarship, University of Wisconsin Superior 2023</li>
+						<li>Secretary-General, Model United Nations, Eucharistic School,Bogota, Colombia, 2019</li>
+						<li>Student Representative and President of the Student Government, Eucharistic School,Bogota, Colombia, 2020 </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Volunteer at NGO “Sonar Despierto” Bogota, Colombia, 2023.</span><br>It is an organization by youth volunteers that seeks to transform lives through the promotion of universal values in massive events for children. I contributed to one massive event called “Sonarcity.” This event was divided into multiple fields where children could explore their skills and dreams of what they want to be or achieve in the future.</li>
+                        <li><span>Volunteer at NGO “Corporacion Vuelo” Bogota, Colombia, 2022.</span><br>It is an organization for children in poor conditions who want to explore the field of arts. I was committed to this corporation by teaching children between 5-10 years old how to dance tap and ballet.</li>
+                        <li><span>Volunteer at NGO “Sol en los Andes” Bogota, Colombia, 2019</span><br>It is an organization for children who suffer from illnesses like cancer, I was committed to that NGO by helping kids with activities like drawing, painting, singing, and dancing. I wanted to contribute to their lives by giving them happy moments.</li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------services---------------- -->
+ <div id="services">
+    <div class="container">
+        <h1 class="sub-title">OAS Leadership</h1>
+        <br>
+        <div class="video-grid">
+            <div class="video-card">
+                <h2>OAS Leadership Fridays for Interns</h2>
+                <div class="video-wrapper">
+                    <br>
+                    <iframe width="300" height="150" src="https://www.youtube.com/embed/bY1E9NOZBro" title="OAS LEADERSHIPS FRIDAYS FOR INTERNS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <p>Co-Produced and Co-Edited videos for the OAS Secretary General, Summer interns, and the Youth Community.</p>
+                    <br>
+                    <br>
+                </div>
+            </div>
+            <div class="video-card">
+                <h2>Colombia needs us</h2>
+                <br>
+                <div class="video-wrapper">
+                    <iframe width="320" height="576" src="https://www.youtube.com/embed/kHMkPlj0ZhE" title="Colombia needs us" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p>Co-Produced and Co-Edited videos for the OAS Secretary General, Summer interns, and the Youth Community.</p>
+                <br>
+                <br>
+                </div>
+            </div>
+            <div class="video-card">
+                <h2>A Message to the OAS Interns</h2>
+                <br>
+                <div class="video-wrapper">
+                    <iframe width="320" height="576" src="https://www.youtube.com/embed/YjheWVep9bM" title="A Message to the OAS Interns" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p>Co-Produced and Co-Edited videos for the OAS Secretary General, Summer interns, and the Youth Community.</p>
+                <br>
+                <br>
+                </div>
+        </div>
+
+        <h2>Skills</h2>
+        <div class="services-list">
+            <div>
+                <h3><strong>Clear Communication</strong></h3>
+            </div>
+            <div>
+                <h3><strong>Video Editing</strong></h3>
+            </div>
+            <div>
+                <h3><strong>Leadership</strong></h3>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<div style="display: flex; gap: 80px;">
+  <img src="oea1.jpg" width="230" height="300" style="margin-left: 130px;">
+  <img src="oea2.jpg" width="230" height="300">
+  <img src="daniela1.jpg" width="230" height="300">
+</div>
+
+<!-- ----------CICAD / Inter-American Observatory on Drugs------------ -->
+<div id="cicad">
+    <div class="container">
+        <h1 class="sub-title">Inter-American Observatory on Drugs</h1>
+        <br>
+        <br>
+        <h3>OID-CICAD-OAS Writing- Official Publications</h3>
+        <br>
+        <h3>Early Warning System-Monthly E-Newsletters </h3>
+        <br>
+        <embed src="SATA e-Newsletter Vol.29 JUNE 2026 - ENG.pdf" type="application/pdf" width="100%" height="600px">
+        <br>
+        <br>
+        <br>
+        <embed src="SATA e-Newsletter Vol.30 JULY 2026 - ENG.pdf" type="application/pdf" width="100%" height="600px">
+        <br>
+        <br>
+        <h2>Skills</h2>
+        <div class="services-list">
+            <div>
+                <h3><strong>Public information and editorial writing</strong></h3>
+            </div>
+            <div>
+                <h3><strong>⁠Synthesis and Summarization</strong></h3>
+            </div>
+            <div>
+                <h3><strong>⁠Bilingual professional writing</strong></h3>
+            </div>
+        <br>
+        <div style="display: flex; gap: 30px; justify-content: center; margin-top: 30px;">
+
+    <!-- Final Presentation -->
+    <a href="Final_Presentation_Daniela.pdf" target="_blank"
+       style="
+           width: 300px;
+           padding: 30px;
+           background: #262626;
+           border-radius: 15px;
+           text-decoration: none;
+           color: white;
+           text-align: center;
+           transition: 0.3s;
+       ">
+
+        <i class="fas fa-file-pdf" style="font-size: 50px; color: #ffffff;"></i>
+
+        <h2>Final Presentation</h2>
+
+        <p style="color: #ababab;">
+            Click to view the final presentation
+        </p>
+
+    </a>
+
+
+    <!-- Infografía -->
+    <a href="Infografía.pdf" target="_blank"
+       style="
+           width: 300px;
+           padding: 30px;
+           background: #262626;
+           border-radius: 15px;
+           text-decoration: none;
+           color: white;
+           text-align: center;
+           transition: 0.3s;
+       ">
+
+        <i class="fas fa-file-pdf" style="font-size: 50px; color: #ffffff;"></i>
+
+        <h2>Infografía</h2>
+
+        <p style="color: #ababab;">
+            Click to view the infographic
+        </p>
+
+    </a>
+
+</div>
+    </div>
+</div>
+
+<!-- ----------Legislative Advocacy------------ -->
+<div id="advocacy">
+    <div class="container">
+        <h1 class="sub-title">Legislative Advocacy</h1>
+        <h4>City of Superior at the State Capitol</h4>
+        <p class="placeholder-note">[Add a description of the legislative advocacy trip — what issue(s) the City of Superior brought to the State Capitol, who you met with, and your role in the effort. Add photos below if you'd like.]</p>
+    </div>
+</div>
+
+<!-- ----------Social Media------------ -->
+<div id="socialmedia">
+    <div class="container">
+        <h1 class="sub-title">Social Media</h1>
+        <p class="placeholder-note">[Add links to your social media / content creation work here — e.g. Instagram, LinkedIn, or the content you created for the International Student Services office. You can list icons/links or embed posts.]</p>
+    </div>
+</div>
+
+<!-- ----------Diplomatic Reception------------ -->
+<div id="reception">
+    <div class="container">
+        <h1 class="sub-title">Diplomatic Reception</h1>
+        <h4>Reception for the Mayor of Washington, D.C., Muriel Bowser</h4>
+        <p class="placeholder-note">[Add a description of the diplomatic reception — the context of the event, why Mayor Bowser was present, and your role or takeaways. Add photos below if you'd like.]</p>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
